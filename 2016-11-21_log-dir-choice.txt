@@ -1,0 +1,54 @@
+
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:21:47
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:22:21
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:23:13
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:25:10
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:26:00
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:26:22
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:27:00
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:27:04
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:29:34
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:29:57
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:31:40 Sincronização Finalizada em 21/11/2016-14:31:40
+|-----------------------------------------------/n/n
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:33:30 Sincronização Finalizada em 21/11/2016-14:33:30
+|-----------------------------------------------/n/n
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:33:57 Sincronização Finalizada em 21/11/2016-14:33:58
+|-----------------------------------------------/n/n
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:35:17 Sincronização Finalizada em 21/11/2016-14:35:17
+|-----------------------------------------------/n/n
+
+|----------------------------------------------- Sincronização iniciada em 21/11/2016-14:49:12sending incremental file list
+PageAnalyser/
+PageAnalyser/.txt
+PageAnalyser/google.com.txt
+PageAnalyser/setup.sh
+PageAnalyser/start.sh
+PageAnalyser/www.google.com
+PageAnalyser/.idea/
+PageAnalyser/.idea/compiler.xml
+PageAnalyser/.idea/misc.xml
+PageAnalyser/.idea/workspace.xml
+PageAnalyser/.idea/copyright/
+PageAnalyser/.idea/copyright/profiles_settings.xml
+PageAnalyser/config/
+PageAnalyser/config/searchSites.txt
+
+sent 8,298 bytes  received 230 bytes  5,685.33 bytes/sec
+total size is 40,366  speedup is 4.73
+ Sincronização Finalizada em 21/11/2016-14:49:13
+|-----------------------------------------------/n/n

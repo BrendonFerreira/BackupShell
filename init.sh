@@ -1,11 +1,17 @@
 #!/bin/bash
 
+escolha_operacao=$(dialog                    \
+   --title 'Início'                          \
+   --menu 'Qual operação deseja fazer?'      \
+   0 0 0                                     \
+   iniciar       'Iniciar backup'            \
+   configurar    'Configurar origem backup'         \
+   desagendar    'Desagendar backup'         \
+   sair          'Sair' --stdout)
 
-source $(dirname $0)/test.sh
-
-if [ -n "$CONFIG_BACKUP_DIR" ] 
-then 
-	echo "Aplicação configurada"
-else 
-	echo "A aplicação não foi devidamente configurada"
-fi
+case $escolha_operacao in 
+	'iniciar') source $(dirname $0)/app/backupDirChoice.sh;;
+	'configurar') source $(dirname $0)/app/reconfigBackup.sh;;
+	'desagendar') source $(dirname $0)/app/desagendarBackup.sh;;
+	'sair') reset;;
+esac

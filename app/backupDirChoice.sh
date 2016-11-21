@@ -10,17 +10,18 @@ printf " Sincronização iniciada em $INICIO" >> $LOG
 #Fim do cabeçalho
 
 # Lê cada linha do arquivo como origens do backup
-cat $CONFIG_BACKUP_DIR/dirOrigem.txt | while read dirrOrigem do
-
+cat $CONFIG_BACKUP_DIR/dirOrigem.txt | while read dirrOrigem; 
+do
 	# Lê cada linha do arquivo como destino do backup
-	cat $CONFIG_BACKUP_DIR/dirDestino.txt | while read dirrDestino do	
+	cat $CONFIG_BACKUP_DIR/dirDestino.txt | while read dirrDestino; 
+	do			
 		#Inicia o BKP usando RSYNC, os parametros -Cravzp quer dizer que o rsync está sendo acionado para:
-		#-C: auto-ignorar arquivos idênticos;
-		#-r: copiar de forma recursiva, ou seja, todos os diretórios e subdiretórios no caminho especificado;
-		#-a: indica que estarão sendo copiados arquivos;
-		#-v: modo verboso, mais informações da cópia;
-		#-z: comprime os arquivos durante a cópia;
-		#-p: indicador de progresso de cópia.
+		#C: auto-ignorar arquivos idênticos;
+		#r: copiar de forma recursiva, ou seja, todos os diretórios e subdiretórios no caminho especificado;
+		#a: indica que estarão sendo copiados arquivos;
+		#v: modo verboso, mais informações da cópia;
+		#z: comprime os arquivos durante a cópia;
+		#p: indicador de progresso de cópia.
 		sudo rsync -Cravzp $dirrOrigem $dirrDestino >> $LOG
 	done
 done
